@@ -71,6 +71,7 @@ This cheat sheet provides a quick reference for common Docker commands and Docke
     docker exec -it <container_id> or <container_name> <command>
     ```
     * `-it`: Interactive terminal.
+    * `/bin/bash`: Open a shell.
 * **View container logs:**
     ```bash
     docker logs <container_id> or <container_name>
