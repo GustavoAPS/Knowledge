@@ -1,5 +1,16 @@
 # Docker Cheat Sheet
 
+# My Project
+
+## Features
+Here are some cool features of this project.
+
+## Usage
+Learn how to use it here.
+
+[Jump to Installation](#installation)
+
+
 Docker is a platform that allows developers to package applications and their dependencies into lightweight, portable containers. These containers run the same way on any system, eliminating the "it works on my machine" problem. Instead of installing software manually, Docker lets you create images that include everything an application needs, from code to libraries. This makes it easier to deploy and scale applications consistently across different environments, whether on a laptop, a server, or the cloud.
 
 ## Dockerfile Basics
@@ -157,3 +168,6 @@ Docker is a platform that allows developers to package applications and their de
     ```bash
     docker-compose exec <service_name> <command>
     ```
+
+## Installation
+Follow these steps to install the project.
