@@ -5,7 +5,7 @@ Docker is a platform that allows developers to package applications and their de
 ## Table of Contents
 
 - [Basics and Nomenclature](#basics_and_nomenclature)
-- [Dockerfile Basics](#dockerfile_basics)
+- [Dockerfile Basics](#dockerfile)
 - [Jump to Installation](#installation)
 
 ## Basics and Nomenclature
@@ -26,7 +26,7 @@ Docker is a platform that allows developers to package applications and their de
 
 ### 
 
-## Dockerfile Basics
+## Dockerfile
 
 * **`FROM <image>:<tag>`:** Specifies the base image.
 * **`WORKDIR <path>`:** Sets the working directory.
