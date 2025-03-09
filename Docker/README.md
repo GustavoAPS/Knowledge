@@ -1,17 +1,30 @@
-# Docker Cheat Sheet
-
-# My Project
-
-## Features
-Here are some cool features of this project.
-
-## Usage
-Learn how to use it here.
-
-[Jump to Installation](#installation)
-
+# Docker Notes
 
 Docker is a platform that allows developers to package applications and their dependencies into lightweight, portable containers. These containers run the same way on any system, eliminating the "it works on my machine" problem. Instead of installing software manually, Docker lets you create images that include everything an application needs, from code to libraries. This makes it easier to deploy and scale applications consistently across different environments, whether on a laptop, a server, or the cloud.
+
+## Table of Contents
+
+- [Basics and Nomenclature](#basics_and_nomenclature)
+- [Dockerfile Basics](#dockerfile_basics)
+- [Jump to Installation](#installation)
+
+## Basics and Nomenclature
+
+### Basics
+
+### Nomenclature
+- **Docker:** A platform that allows developers to build, package, and run applications inside lightweight, portable containers.
+- **Image:** A read-only blueprint for creating a container. It contains the application code, dependencies, and environment setup.
+- **Container:** A running instance of an image. Containers are isolated environments where applications execute.
+- **Dockerfile:** A text file that contains instructions to build a Docker image.
+- **Volume:** A way to persist data outside a container so it isn’t lost when the container stops.
+- **Bind Mount:** Directly maps a local folder into a container. Unlike volumes, bind mounts rely on the host filesystem.
+- **Port Mapping:** Allows a container’s internal port to be accessed from the host.
+- **Network:** A virtual network that allows containets to communicate.
+- **Registry:** A place to store and distribute Docker images.
+- **Orchestrator:** A tool like Kubernetes or Docker Swarm to manage multiple containers in production.
+
+### 
 
 ## Dockerfile Basics
 
@@ -168,6 +181,3 @@ Docker is a platform that allows developers to package applications and their de
     ```bash
     docker-compose exec <service_name> <command>
     ```
-
-## Installation
-Follow these steps to install the project.
