@@ -84,7 +84,7 @@ Docker is a platform that allows developers to package applications and their de
     ```bash
     docker run -d -p <host_port>:<container_port> --name <container_name> <image_name>:<tag>
     ```
-    * `-d`: Run the container in detached mode (background).
+    * `-d`: Run the container in detached mode (background) this means that the container runs in the background, separate from the terminal session. This allows you to start a container without it blocking your terminal, so you can continue using it for other commands.
     * `-p`: Map ports between the host and container.
     * `--name`: Assign a name to the container.
     * `-e`: Set environment variables.
