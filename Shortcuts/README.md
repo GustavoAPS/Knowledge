@@ -1,4 +1,4 @@
-# 📌 Most Used Keyboard Shortcuts
+# Keyboard Shortcuts
 
 ## 🖥️ Linux Shortcuts
 - `Ctrl + Alt + T` → Open Terminal
