@@ -5,6 +5,7 @@
 
 - [Git](git/README.md)
 - [Docker](Docker/README.md)
+- [HTML](HTML/README.md)
 - [DOM](Web/DOM.md)
 - [Keyboard Shortcuts](Shortcuts/README.md)
 - [Linux Commands](Linux/README.md)
