@@ -105,19 +105,13 @@ merge the specified branch’s history into the current one
 git merge [branch]
 ```
 
-show all commits in the current branch’s history
-
-```git
-git log
-```
-
 ## Inspect & Compare
 
 show the commit history for the currently active branch
 ```git
 git log
 ```
-show the commits on branchA that are not on branchB
+show the commits on branch A that are not on branch B
 ```git
 git log branchB..branchA
 ```
