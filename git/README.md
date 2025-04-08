@@ -82,9 +82,13 @@ git commit -m “[descriptive message]”
 
 
 list your branches. a * will appear next to the currently active branch
+- **-r** will show the branches in remote
+- **-a** will show all branches local and remote
 
 ```git
 git branch
+git branch -r
+git branch -a
 ```
 
 create a new branch at the current commit
